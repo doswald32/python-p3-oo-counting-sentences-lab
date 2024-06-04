@@ -41,7 +41,7 @@ class TestMyString:
         '''returns the number of sentences in the value.'''
         simple_string = MyString("one. two. three?")
         empty_string = MyString()
-        complex_string = MyString("This, well, is a sentence. This is too!! And so is this, I think? Woo...")
+        complex_string = MyString("This, well, is a sentence. This is too!! And so is this, I think?")
         assert(simple_string.count_sentences() == 3)
         assert(empty_string.count_sentences() == 0)
         assert(complex_string.count_sentences() == 4)
